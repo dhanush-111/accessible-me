@@ -1,35 +1,32 @@
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
-  margin: 0;
-  padding: 0;
+  font-family: 'Roboto', Helvetica, Verdana, Tahoma, sans-serif;
+  background-color: white;
+  color: black; 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+
+
+h1 {
+  font-family: 'Stick No Bills', Helvetica, Arial, Helvetica, sans-serif;
+  color: #222222; 
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1090px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 img {
-  width: 100%;
+  width: 90%;
+  height: auto;
 }
 
 .main-nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  background-color: #373535; 
 }
 
 .main-nav ul li {
@@ -39,17 +36,26 @@ img {
 
 .main-nav ul li a {
   display: block;
-  color: inherit;
+  color: white; 
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.main-nav ul li a:focus,
+.main-nav ul li a:hover {
+  background-color: #403f3f;
+  outline: 2px solid white; 
 }
 
 form input,
 form textarea {
   display: block;
-  width: 100%;
+  width: 101%;
   margin-bottom: 1rem;
-  padding: .5rem 1rem;
+  padding: .6rem 1rem;
+  border: 1px solid #313030;
+  border-radius: 4px;
 }
 
 form textarea {
@@ -60,12 +66,36 @@ form textarea {
 }
 
 form button {
-  background: none;
-  border: 2px solid black;
+  background: black; 
+  color: white;
+  border: none;
   padding: 1rem;
   text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+form button:focus {
+  background-color: #383838;
+  outline: 2px solid black;
 }
 
 .site-footer {
   padding: 2rem 0;
+  text-align: center;
+  background-color: whitesmoke;
+  color: #333333;
+  font-size: 0.9rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.3s;
 }
