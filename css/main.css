@@ -1,18 +1,18 @@
 body {
   font-family: 'Roboto', Helvetica, Verdana, Tahoma, sans-serif;
   background-color: white;
-  color: black; 
+  color: rgb(29, 112, 180); 
 }
 
 
 
 h1 {
   font-family: 'Stick No Bills', Helvetica, Arial, Helvetica, sans-serif;
-  color: #222222; 
+  color: #2a69bc; 
 }
 
 .container {
-  max-width: 1090px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -26,7 +26,7 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  background-color: #373535; 
+  background-color: #1a8694; 
 }
 
 .main-nav ul li {
