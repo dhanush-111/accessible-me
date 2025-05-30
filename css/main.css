@@ -66,7 +66,7 @@ form textarea {
 }
 
 form button {
-  background: black; 
+  background: rgb(14, 159, 226); 
   color: white;
   border: none;
   padding: 1rem;
@@ -78,7 +78,7 @@ form button {
 
 form button:focus {
   background-color: #383838;
-  outline: 2px solid black;
+  outline: 2px solid rgb(24, 19, 172);
 }
 
 .site-footer {
